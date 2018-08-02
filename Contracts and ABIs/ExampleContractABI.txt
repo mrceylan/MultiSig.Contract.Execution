@@ -1,0 +1,47 @@
+[
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "newValue",
+				"type": "uint256"
+			}
+		],
+		"name": "Execute",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": false,
+				"name": "_from",
+				"type": "address"
+			},
+			{
+				"indexed": false,
+				"name": "_value",
+				"type": "uint256"
+			}
+		],
+		"name": "execution",
+		"type": "event"
+	},
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "myValue",
+		"outputs": [
+			{
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	}
+]
